@@ -1,15 +1,12 @@
-def occurrence(list,n):
-    count = 0
-    for i in list:
-        if i == n:
-            count += 1
-    return count
+
 def compterOccurrence(list):
-    mySet= set(list)
-    myDict = {}
-    for i in mySet:
-        myDict[i] = occurrence(list,i)
-    return myDict
+    counts = {}
+    for item in list:
+        if item not in counts:
+            counts[item] = 1
+        else:
+            counts[item] += 1
+    return counts
 
 list = [11, 45, 8, 11, 23, 45, 23, 45, 89]
 
