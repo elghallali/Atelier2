@@ -1,8 +1,6 @@
 def verifyElements(list,dict):
     for item in list:
-        if item in dict:
-            continue
-        else:
+        if item not in dict.values():
             list.remove(item)
     return list
 
