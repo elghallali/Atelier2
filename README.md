@@ -19,7 +19,7 @@ Résultat :
 [6, 12, 18, 4, 12, 20, 28]
 ```
 
-2. Deviser la liste en 3 morceaux égaux et inverser chaque morceau
+2. Deviser la liste en 3 morceaux égaux et inverser chaque morceau.
 
 Exemple :
 
@@ -46,7 +46,7 @@ Résultat :
 {11: 2, 45: 3, 8: 1, 23: 2, 89: 1}
 ```
 
-4. Trouver l'intersection (commune) de deux Sets et supprimez ces éléments du premier Set
+4. Trouver l'intersection (commune) de deux Sets et supprimez ces éléments du premier Set.
 
 Exemple :
 
@@ -62,7 +62,7 @@ Intersection {57, 83, 29}
 Set 1 après suppression : {65, 42, 78, 23}
 ```
 
-5. Itérer une liste donnée et vérifier si un élément donné existe en tant que valeur de clé dans un dictionnaire. Sinon, supprimez-le de la liste
+5. Itérer une liste donnée et vérifier si un élément donné existe en tant que valeur de clé dans un dictionnaire. Sinon, supprimez-le de la liste.
 
 Exemple :
 
